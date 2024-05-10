@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 1</title>
+    <script
+      src="https://kit.fontawesome.com/81d46fbe1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <input type="checkbox" id="check" /><label
+            for="check"
+            class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
+          <a class="enlace" href="index.html">
+            <img src="../img/logo.png" alt="logo" class="logo"/>
+          </a>
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pages/jobs.html">Trabajos</a></li>
+            <li><a href="./pages/services.html">Servicios</a></li>
+            <li><a href="./pages/about.html">Acerca de mí</a></li>
+            <li><a href="./pages/contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="seccion-principal">
+        <section class="seccion-1">
+          <div class="sobreMi-img">
+            <img src="../img/foto perfil.jpeg" alt="Imagen Portada" />
+          </div>
+          <div class="sobreMi">
+            <h2>Sobre de mi</h2>
+            <p>
+              Soy Pamela Gomez, naci en San Fernando, Buenos Aires. Actualmente estoy estudiando
+              programación con lenguaje Python, espero poder ampliar mis
+              conocimientos y alcanzar mis objetivos en el corto plazo. Me gusta
+              programar para poder ayudar a las personas a mostrar lo que
+              hacen."
+            </p>
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img src="../img/natural.jpg" alt="imagen paisaje lago-montañas" />
+        </section>
+        <section class="tarjetas">
+          <div class="titulo">
+            <h3>Trabajos</h3>
+          </div>
+          <div class="tarjetasCard">
+            <div class="card">
+              <div class="card-img">
+                <img src="../img/OIP.jpg" alt="" />
+              </div>
+              <div class="contenido">
+                <h3>Diseños para Celulares</h3>
+                <p>Diseños de escritorios adaptado a celulares.</p>
+                <a href="">Ver mas</a>
+              </div>
+            </div>
+            <div class="card streaming">
+              <div class="card-img">
+                <img src="../img/banner-bg.jpg" alt="" />
+              </div>
+              <div class="contenido">
+                <h3>Plataformas de Streaming</h3>
+                <p>Para ver peliculas y series.</p>
+                <a href="">Ver mas</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="../img/Web-Design-High-Quality-PNG.png" alt="" />
+              </div>
+              <div class="contenido">
+                <h3>Páginas Web Negocios</h3>
+                <p>Páginas web de empresas.</p>
+                <a href="">Ver mas</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="formulario">
+            <form action="/my-handling-form-page" method="post">
+              <ul>
+                <li>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                  <label for="mail">Correo electrónico:</label>
+                  <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                  <label for="msg">Mensaje:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+              </ul>
+            </form>
+            
+
+          </div>
+        </section>
+        <button id="btn-generar">Generar Frase Aleatoria</button>
+        <footer id="footer">
+          <p id="frase"></p>
+        </footer>
+      </main>
+    </div>
+    <footer>
+      <div class="footerNav">
+        <div class="redes">
+          <ul>
+            <h3>Redes</h3>
+            <li>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="formulario">
+          <div class="comentarios">
+            <button><a href="">Envianos tus sugerencias</a></button>
+          </div>
+          <div class="terminos">
+            <button><a href="">Terminos y condiciones</a></button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/javascript.js"></script>
+  </body>
+</html>

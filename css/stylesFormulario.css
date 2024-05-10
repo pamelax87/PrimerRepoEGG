@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+header nav {
+  background-color: rgb(75, 73, 73);
+  height: 60px;
+  width: 100%;
+ }
+ header nav .enlace{
+  position: absolute;
+  padding: 5px 20px;
+ }
+ header nav a .logo {
+  width: 50px;
+  height: auto;
+ }
+nav ul {
+  float:right;
+  margin-right:20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li.active, a:hover {
+  background-color: rgb(68, 127, 237);
+  transition: .5s;
+}
+.checkbtn {
+  font-size: 40px;
+  color:  rgb(68, 127, 237);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+.titulo_seccion {
+  position: relative;
+  font-size: 40px;
+  color: #003750;
+  text-align: center;
+}
+.container {
+  max-width: XX; /* Define el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: XX; /* Agrega un poco de espacio alrededor del formulario */
+  border: XX; /* Agrega un borde al contenedor */
+  border-radius: XX; /* Agrega bordes redondeados al contenedor */
+}
+.form-group {
+  margin-bottom: 15px; /* Espacio entre cada input */
+}
+label {
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: XX; /* Define el ancho máximo del input */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+button {
+  /* Coloca estilos a tu botón */
+}
+button:hover {
+  background-color: #0056b3;
+}
